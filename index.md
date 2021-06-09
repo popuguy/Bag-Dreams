@@ -1,12 +1,12 @@
-## Welcome to GitHub Pages
+## Bag Dreams with GANs in PyTorch
 
-You can use the [editor on GitHub](https://github.com/popuguy/Bag-Dreams/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+In the final week of this quarter, I worked to try interacting with and making generative adversarial neural nets (GANs).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Acquiring data
 
-### Markdown
+Typical student and professional neural net projects seem to rely on massive, clean, labeled datasets that can practically not be created without a large amount of time or funding. To subvert this model for projects and make something slightly more unique, I worked to create a GAN with data I could find online.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The first stage of work on my project consisted of finding and downloading a stockpile of images in my area of interest. I'm interested in bags and have been [making bags](https://heavycreambags.com/) for a couple years, so I was curious to try to create a network that could also "design" bags. 
 
 ```markdown
 Syntax highlighted code block
