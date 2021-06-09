@@ -1,6 +1,8 @@
 ## Bag Dreams with GANs in PyTorch
 
-In the final week of this quarter, I worked to try interacting with and making generative adversarial neural nets (GANs). Video summary [here](https://www.youtube.com).
+In the final week of this quarter, I worked to try interacting with and making generative adversarial neural nets (GANs). 
+
+Video summary [here](https://www.youtube.com).
 
 ### Acquiring data
 
