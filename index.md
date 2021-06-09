@@ -20,6 +20,8 @@ For my network, my generator uses layers of transposed convolution operations to
 
 ### Results
 <img src="https://github.com/popuguy/Bag-Dreams/blob/main/dreamed-bags/present/some-bags.jpg?raw=true" alt="hi" />
+
+
 Although the generator learns from random inputs during training, I can track a number of these randomly generated values as a seed to examine network progress. As depicted in my video summary, the change in outputs for given seeds over time can be somewhat mesmerizing as well as informative for the true test of a convincing look for a human observer.
 
 All of my code is [here](https://github.com/popuguy/Bag-Dreams/blob/main/dreamed-bags).
