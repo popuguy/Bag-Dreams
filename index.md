@@ -12,7 +12,7 @@ My scripts for compiling images with some tagged data for possible use in later 
 
 ### Methods
 
-My network is a traditional GAN that I reasoned through the creation of by closely looking through a few different projects as references. The adversarial model is one where there are really two separate component networks that learn together as if playing a game. These two components are called the "Generator" and the "Discriminator."
+My network is a traditional deep convolutional generative adversarial network (DCGAN) that I reasoned through the creation of by closely looking through a few different projects as references. The adversarial model is one where there are really two separate component networks that learn together as if playing a game. These two components are called the "Generator" and the "Discriminator."
 
 For my network, my generator uses layers of transposed convolution operations to scale up from 128 randomly generated values to a 3-channel (full color) 64x64 image to perform the forward pass, generating the image. The discriminator is then posed against the generator by using spaced strides in convolution operations to scale back to a single output value representing an interpretation of the image as real or fake. The discriminator is trained at each iteration through a batch of real images and these generated fakes. As the discriminator performs its backward pass, it also passes back blame to the generator so it, in turn, can learn.
 
