@@ -25,7 +25,11 @@ Although the generator learns from random inputs during training, I can track a 
 ## References
 
 https://github.com/nbertagnolli/pytorch-simple-gan
+
 https://github.com/eriklindernoren/PyTorch-GAN/
+
 https://sthalles.github.io/advanced_gans/
+
 https://www.kaggle.com/spandan2/cats-faces-64x64-for-generative-models
+
 https://machinelearningmastery.com/how-to-develop-a-pix2pix-gan-for-image-to-image-translation/
